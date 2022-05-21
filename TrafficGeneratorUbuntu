@@ -16,9 +16,6 @@ cd trafficGen/
 chmod +x install.sh 
 sudo ./install.sh
 sudo chmod 755 usr/bin/traffgen 
-wget www.office.com
-wget www.microsoft.com/en-us/microsoft-teams/log-in
-wget dialin.teams.microsoft.com
 node traffgen.js
 sudo systemctl start web-traffic-gen.service
 sudo systemctl status web-traffic-gen.service
