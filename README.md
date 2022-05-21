@@ -7,7 +7,7 @@
 6. sudo apt-get install -y git curl
 7. sudo git clone https://github.com/stevevoto/trafficGen
 8. cd /trafficGen
-9. chmod +x TrafficGeneratorInstall.sh 
+9. chmod +x TrafficGeneratorUbuntu 
 10. Run ./TrafficGeneratorInstall.sh
 11. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
 12. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
