@@ -1,14 +1,6 @@
-sudo yum install -y yum-utils dnf git net-tools iperf3 tcpdump 
+#!/bin/sh
 
-
-yum -y --assumeyes install wget net-tools lshw ntp epel-release yum-utils tcpdump iperf iperf3 dnf git yum-utils tcpdump htop
-
-apt-get -y install wget net-tools lshw ntp epel-release yum-utils tcpdump iperf iperf3 dnf git yum-utils tcpdump htop
-
-
-
-
---------------Web Traffic Generator Ubuntu -------
+#--------------Web Traffic Generator Ubuntu V.2 -------#
 
 apt-get -y install wget net-tools lshw ntp tcpdump iperf iperf3 git tcpdump htop curl
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -30,6 +22,3 @@ node traffgen.js
 sudo systemctl start web-traffic-gen.service
 sudo systemctl status web-traffic-gen.service
 sudo systemctl enable web-traffic-gen.service
-
-
-
