@@ -18,7 +18,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install git
 sudo apt-get install nodejs
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-git clone https://github.com/reidstidolph/web-traffic-generator.git
+git clone https://github.com/stevevoto/trafficGen/.git
 cd web-traffic-generator/
 sudo ./install.sh
 git pull
