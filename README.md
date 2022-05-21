@@ -9,6 +9,8 @@
 8. cd trafficGen
 9. chmod +x TrafficGeneratorUbuntu 
 10. Run ./TrafficGeneratorUbuntu
-11. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
-12. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
-13. If service is runnining you can do a tcpdump and watch connections
+11. When Complete the server will reboot 
+12. Login as root 
+13. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
+14. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
+15. If service is runnining you can do a tcpdump and watch connections
