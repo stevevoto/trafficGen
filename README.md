@@ -4,8 +4,9 @@
 3. Connect your Desktop to the internet and make sure DNS is configured properly
 4. sudo apt-get install openssh-server
 5. sudo apt-get update
-6. Then get https://github.com/stevevoto/trafficGen/TrafficGeneratorUbuntu.sh
-7. Run chmod +x TrafficGeneratorUbuntu.sh
-8. Run ./TrafficGeneratorUbuntu.sh
-9. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
-10. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
+6. sudo apt-get install -y git curl
+7. Then get https://github.com/stevevoto/trafficGen/TrafficGeneratorUbuntu.sh
+8. Run chmod +x TrafficGeneratorUbuntu.sh
+9. Run ./TrafficGeneratorUbuntu.sh
+10. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
+11. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
