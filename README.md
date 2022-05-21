@@ -6,4 +6,4 @@
 5. Run chmod +x TrafficGeneratorUbuntu.sh
 6. Run ./TrafficGeneratorUbuntu.sh
 7. When Complete check service is runnning "sudo systemctl status web-traffic-gen.service"
-8. If not run sudo systemctl start web-traffic-gen.service
+8. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
