@@ -15,7 +15,6 @@ cd trafficGen/
 chmod +x install.sh 
 sudo ./install.sh
 sudo chmod 755 /usr/bin/traffgen 
-node traffgen.js
 sudo systemctl start web-traffic-gen.service
 sudo systemctl status web-traffic-gen.service
 sudo systemctl enable web-traffic-gen.service
